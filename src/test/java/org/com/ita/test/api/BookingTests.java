@@ -1,17 +1,13 @@
 package org.com.ita.test.api;
-
 import io.restassured.response.Response;
 import org.com.ita.test.api.models.*;
 import org.com.ita.test.api.models.clients.BookingClient;
 import org.com.ita.test.api.models.clients.SignInClient;
-
-import static org.hamcrest.MatcherAssert.assertThat;
-
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import java.util.Arrays;
+
 
 
 public class BookingTests {
@@ -83,7 +79,6 @@ Assert.assertNotNull(bookingResponse.getBody());
     @Test
     public void getBookingids(){
     Response response = client.getIds();
-    System.out.println(response);
     Assert.assertEquals(response.getStatusCode(),200);
 
     }

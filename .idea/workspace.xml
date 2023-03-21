@@ -5,14 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83ed00c9-4005-4d01-8aca-b1c715b1869d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/com/ita/test/api/models/BookingDates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/com/ita/test/api/models/BookingDates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/com/ita/test/api/models/BookingGetRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/com/ita/test/api/models/BookingGetRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/com/ita/test/api/models/BookingPostRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/com/ita/test/api/models/BookingPostRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/com/ita/test/api/models/BookingPostResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/com/ita/test/api/models/BookingPostResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/com/ita/test/api/models/BookingResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/com/ita/test/api/models/BookingResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/com/ita/test/api/models/SignInRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/com/ita/test/api/models/SignInRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/com/ita/test/api/models/SignInResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/com/ita/test/api/models/SignInResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/com/ita/test/api/models/clients/BookingClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/com/ita/test/api/models/clients/BookingClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/com/ita/test/api/BookingTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/com/ita/test/api/BookingTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,17 +41,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable&quot;: &quot;ALL&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable": "ALL",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.TestRemoveItem">
-    <configuration name="BookingTests.deleteBooking" type="TestNG" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="TestNG.BookingTests.postBooking">
+    <configuration name="BookingTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaProject" />
       <extension name="coverage">
         <pattern>
@@ -58,7 +61,42 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.com.ita.test.api" />
       <option name="MAIN_CLASS_NAME" value="org.com.ita.test.api.BookingTests" />
-      <option name="METHOD_NAME" value="deleteBooking" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookingTests.getBooking" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.com.ita.test.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.com.ita.test.api" />
+      <option name="MAIN_CLASS_NAME" value="org.com.ita.test.api.BookingTests" />
+      <option name="METHOD_NAME" value="getBooking" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookingTests.getBookingByNameAndDate" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.com.ita.test.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.com.ita.test.api" />
+      <option name="MAIN_CLASS_NAME" value="org.com.ita.test.api.BookingTests" />
+      <option name="METHOD_NAME" value="getBookingByNameAndDate" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -102,66 +140,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRemoveItem" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JavaProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.com.ita.test.ui.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.com.ita.test.ui.test" />
-      <option name="MAIN_CLASS_NAME" value="org.com.ita.test.ui.test.TestRemoveItem" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestRemoveItem.removeAddedItemFromCard" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JavaProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.com.ita.test.ui.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.com.ita.test.ui.test" />
-      <option name="MAIN_CLASS_NAME" value="org.com.ita.test.ui.test.TestRemoveItem" />
-      <option name="METHOD_NAME" value="removeAddedItemFromCard" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSort.addToCardSortedItem" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JavaProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.com.ita.test.ui.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.com.ita.test.ui.test" />
-      <option name="MAIN_CLASS_NAME" value="org.com.ita.test.ui.test.TestSort" />
-      <option name="METHOD_NAME" value="addToCardSortedItem" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestRemoveItem" />
-        <item itemvalue="TestNG.TestRemoveItem.removeAddedItemFromCard" />
-        <item itemvalue="TestNG.TestSort.addToCardSortedItem" />
-        <item itemvalue="TestNG.BookingTests.deleteBooking" />
+        <item itemvalue="TestNG.BookingTests.postBooking" />
+        <item itemvalue="TestNG.BookingTests.getBooking" />
+        <item itemvalue="TestNG.BookingTests" />
         <item itemvalue="TestNG.BookingTests.updateBooking" />
+        <item itemvalue="TestNG.BookingTests.getBookingByNameAndDate" />
       </list>
     </recent_temporary>
   </component>
@@ -186,6 +171,23 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/org/com/ita/test/api/models/BookingResponse.java</url>
+          <line>12</line>
+          <properties field="totalprice" class="org.com.ita.test.api.models.BookingResponse" />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/com/ita/test/api/models/SignInRequest.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaProject$SignInTest_postBooking.ic" NAME="SignInTest.postBooking Coverage Results" MODIFIED="1679044540639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

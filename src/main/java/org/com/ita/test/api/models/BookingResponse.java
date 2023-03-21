@@ -6,12 +6,10 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@JsonIgnoreProperties(ignoreUnknown = true)
 @NoArgsConstructor
 public class BookingResponse {
     private String firstname;
     private String lastname;
-    @JsonProperty("totalprice")
     private int totalprice;
     private Boolean depositpaid;
     public BookingDates bookingdates;

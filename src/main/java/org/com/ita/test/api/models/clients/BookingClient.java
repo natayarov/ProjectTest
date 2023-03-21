@@ -1,19 +1,19 @@
 package org.com.ita.test.api.models.clients;
-
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.com.ita.test.api.models.*;
-
 import static io.restassured.RestAssured.given;
+
 
 
 public class BookingClient extends BaseClient{
     private final String token;
-    private static final String type = "application/json; text/plain; charset=utf-8";
+    private static final String type = "application/json";
+
     public BookingClient(String token){super(); this.token = token;}
 
     public  BookingPostResponse bookingPost(BookingPostRequest request) {
-               return given().contentType(ContentType.JSON)
+               return prepareRequest()
                        .accept(type)
                        .body(request)
                        .when()
@@ -26,11 +26,11 @@ public class BookingClient extends BaseClient{
         return given().param("firstname", firstName)
                 .param("lastname", lastName)
                 .when()
-                .get(baseUrl+"/booking/11251");
+                .get(baseUrl+"/booking/6348");
     }
     public Response putUpdate(BookingPostRequest request,int totalprice, String token) {
        return given().contentType(ContentType.JSON)
-                .accept(type)
+               .accept(type)
                .header("Cookie", "token=" + token)
                 .body(request)
                 .when()
@@ -41,7 +41,6 @@ public class BookingClient extends BaseClient{
        return given().contentType(ContentType.JSON)
                .header("Cookie", "token=" + token)
                 .accept(type)
-
                 .body(request)
                 .when()
                 .put(baseUrl+"/booking/11251");
