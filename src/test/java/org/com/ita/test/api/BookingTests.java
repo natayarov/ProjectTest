@@ -21,8 +21,7 @@ public void beforeMethod(){
     SignInClient clientSI = new SignInClient();
     SignInRequest credential = new SignInRequest("admin","password123");
     SignInResponse response = clientSI.post(credential);
-    client = new BookingClient(response.getToken());
-    System.out.println(response);
+    client = new BookingClient(response.getToken());;
 }
 
 @Test

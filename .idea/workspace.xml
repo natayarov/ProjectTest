@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83ed00c9-4005-4d01-8aca-b1c715b1869d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/com/ita/test/api/models/BookingDates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/com/ita/test/api/models/BookingDates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/com/ita/test/api/models/BookingGetRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/com/ita/test/api/models/BookingGetRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/com/ita/test/api/models/BookingPostRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/com/ita/test/api/models/BookingPostRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/com/ita/test/api/models/BookingPostResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/com/ita/test/api/models/BookingPostResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/com/ita/test/api/models/BookingResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/com/ita/test/api/models/BookingResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/com/ita/test/api/models/SignInRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/com/ita/test/api/models/SignInRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/com/ita/test/api/models/SignInResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/com/ita/test/api/models/SignInResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/com/ita/test/api/models/clients/BookingClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/com/ita/test/api/models/clients/BookingClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/com/ita/test/api/BookingTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/com/ita/test/api/BookingTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="83ed00c9-4005-4d01-8aca-b1c715b1869d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +38,7 @@
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.BookingTests.postBooking">
+  <component name="RunManager" selected="TestNG.BookingTests">
     <configuration name="BookingTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaProject" />
       <extension name="coverage">
@@ -142,9 +130,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.BookingTests" />
         <item itemvalue="TestNG.BookingTests.postBooking" />
         <item itemvalue="TestNG.BookingTests.getBooking" />
-        <item itemvalue="TestNG.BookingTests" />
         <item itemvalue="TestNG.BookingTests.updateBooking" />
         <item itemvalue="TestNG.BookingTests.getBookingByNameAndDate" />
       </list>
